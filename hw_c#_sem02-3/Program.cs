@@ -10,9 +10,15 @@
 Console.WriteLine("Пожалуйста, напишите тут цифру обозначающую день недели от 1 до 7: ");
 int a = Convert.ToInt32(Console.ReadLine());
 
-if(a>=1 && a<=5)
-Console.WriteLine("Это будний день");
-if (a > 7 || a < 1)
-Console.WriteLine("Вы ошиблись, введите правильную цифру от 1 до 7: ");
+if(a > 0 && a < 6)
+{
+    Console.WriteLine("Это будний день");
+}
+else if (a > 7 || a < 1)
+{
+    Console.WriteLine("Вы ошиблись, введите правильную цифру от 1 до 7: ");
+}
 else
-Console.WriteLine("Ура! Это выходной.");
+{
+    Console.WriteLine("Ура! Это выходной.");
+}
