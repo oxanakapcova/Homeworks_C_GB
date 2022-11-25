@@ -12,17 +12,23 @@ Console.WriteLine("Please, write here your number: ");
 int a = Convert.ToInt32(Console.ReadLine());
     if(a < 100)
 Console.WriteLine("there is no third numeral!");//не уверенна в правильной англ грамматике
-    if (a > 99 && a < 1000)
+    else if (a > 99 && a < 1000)
 {
 int a3 = a % 10;//если число имеет 3 цифры работает, иначе находит последнюю цифру
 Console.WriteLine(a3);
 }
-
-    if(a > 999)
+int [] length = {length};
+length[0] = 
+   while(a > 999 && a < length)
 {
-int а4  = (a / 10)%10;
-Console.WriteLine(a4);
+    if(int а4  = a / 10;
+int a5 = a4 % 10;
 }
+Console.WriteLine(a5);
+
+System.Console.WriteLine(   );
+
+
 
 
 
