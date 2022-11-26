@@ -1,19 +1,19 @@
 ﻿// Sum of 3 numbers + multiplication
 Console.Clear();
-string math;
-int a, b, c;
+
+int firstValue, secondValue, thirdValue;
 Console.WriteLine("  Please, write 1st number: ");
-math = Console.ReadLine();
-a = int.Parse(math);
+firstValue = int.Parse(Console.ReadLine());
+
 System.Console.WriteLine(   "Please, write 2nd number: ");
-math = Console.ReadLine();
-b = int.Parse(math);
+secondValue =int.Parse(Console.ReadLine());
+
 System.Console.WriteLine(   "Please, write 3rd number: ");
-math = Console.ReadLine();
-c = int.Parse(math);
+thirdValue = int.Parse(Console.ReadLine());
+
 int sum;
 int multiplication;
-sum = a + b + c;
-multiplication = a * b * c;
+sum = firstValue + secondValue + thirdValue;
+multiplication = firstValue * secondValue * thirdValue;
 System.Console.WriteLine("Sum is "+ sum +";   multiplication is "+multiplication);
 //Урра!!! с первого раза из головы!!!!

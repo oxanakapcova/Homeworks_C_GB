@@ -1,11 +1,13 @@
 ﻿// Currency exchange (hardcode)
 Console.Clear();
-string Currency;
-int a;
-double b;
-Console.WriteLine("write how many rubles do You want to change: ");
-Currency = Console.ReadLine();
-a = int.Parse(Currency);
-b = (double)a / 60;
-System.Console.WriteLine(   "its " + b + " dollars");
+
+double UsdToRur = 60.03;
+double UsdToBr = 2.38;
+double USD;
+Console.WriteLine("write how many USD do You want to change: ");
+USD = double.Parse(Console.ReadLine());
+
+
+System.Console.WriteLine(   "its " + UsdToRur * USD + " RUR");
+System.Console.WriteLine(   "its " + UsdToBr * USD + "Br");
 //Урра получилось с первого раза!!!
