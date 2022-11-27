@@ -1,6 +1,7 @@
 ﻿// calculator; use if ... else
 
-    Console.Clear();
+    //Console.Clear();
+    
 System.Console.WriteLine(   "write 1th number: ");
 double firstValue = Convert.ToDouble(Console.ReadLine());
 
