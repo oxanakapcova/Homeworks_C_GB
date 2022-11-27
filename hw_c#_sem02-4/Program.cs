@@ -18,132 +18,28 @@
 Console.Clear();
 
 int value = Convert.ToInt32(Console.ReadLine());
-int currentValue;
-int max;
+
+int max = 0;
+int secondMax = 0;
+uint count = 0;
 while(value != 0)
 {
     value = Convert.ToInt32(Console.ReadLine());
-    max = 0;
-    
-    if(max < value)
-    max = max + value;
-
+    if(value > max)
+    {
+        secondMax = max; //0
+        max = value;//1
+        
+    }
+        else if (value > secondMax)
+    {
+        secondMax = value;    
+    }
+        count++;
+        
 }
 Console.WriteLine("End");
-System.Console.WriteLine("max number is "+ max   );
-//System.Console.WriteLine(   );
+System.Console.WriteLine(   "second max number is: "+secondMax);
 
 
-
-/*
-int max = a0;
-while(n )
-{
-    Console.WriteLine(max);
-}
-
-int a, b;
-a = 10;
-b = 39;
-Console.WriteLine(a);
-System.Console.WriteLine(   b);
-bool variable = true;
-bool variable2= false;
-System.Console.WriteLine(   variable);
-double c, d;
-c= 3.480;
-d = 2.087;
-System.Console.WriteLine(   c);
-System.Console.WriteLine(   d);
-
-string data;
-data = Console.ReadLine();
-System.Console.WriteLine("hello "+ data + "!!! I glad to see You)");
-
-string str = "5";
-int a = Convert.ToInt32(str);
-System.Console.WriteLine(   a + a);
-
-string str;
-int a, b;
-System.Console.WriteLine("please write here 1st number: ");
-str = Console.ReadLine();
-a = Convert.ToInt32(str);
-
-System.Console.WriteLine("please write here 2nd number: ");
-str = Console.ReadLine();
-b = Convert.ToInt32(str);
-int result = a + b;
-System.Console.WriteLine("Sum = " +result  );
-
-string str;
-int a, b;
-System.Console.WriteLine(   "please write 1th number: ");
-str = Console.ReadLine();
-a = Convert.ToInt32(str);
-System.Console.WriteLine(   "please write 2nd number: ");
-str = Console. ReadLine();
-b = Convert.ToInt32(str);
-int result = (a * a)/b;
-System.Console.WriteLine(   "Result = " +result);
-
-string math;
-double a, b, c;
-System.Console.WriteLine(   "please write here your 1th number: ");
-math = Console.ReadLine();
-a = Convert.ToDouble(math);
-System.Console.WriteLine(   "please write here your 2nd number: ");
-math = Console.ReadLine();
-b = Convert.ToDouble(math);
-System.Console.WriteLine(   "please write here your 3rd number: ");
-math = Console.ReadLine();
-c = Convert.ToDouble(math);
-double max = a;
-if(b > a && b > c)
-{
-    max = b;
-}
-else 
-    max = c;
-    System.Console.WriteLine(   "Max number is "+max);
-    
-    string math;
-    int a, b, c;
-    System.Console.WriteLine(   "1th number: ");
-    math = Console.ReadLine();
-    a = Convert.ToInt32(math);
-    System.Console.WriteLine(   "2nd number: ");
-    math = Console.ReadLine();
-    b = Convert.ToInt32(math);
-    System.Console.WriteLine(   "3rd number: ");
-    math = Console.ReadLine();
-    c = Convert.ToInt32(math);
-    int result;
-    result = a*c+b;
-    System.Console.WriteLine(   "result is "+result);
-    
-    string str;
-    int a,b;
-    System.Console.WriteLine(   "1th number: ");
-    str = Console.ReadLine();
-    a = int.Parse(str);
-    System.Console.WriteLine(   "2nd number: ");
-    str = Console.ReadLine();
-    b = int.Parse(str);
-    int result;
-    result = a%b;
-    System.Console.WriteLine( "result is " + result);
-
-    string str;
-    int a, b;
-    System.Console.WriteLine(   "1th number: ");
-    str = Console.ReadLine();
-    a = int.Parse(str);
-    System.Console.WriteLine(   "2nd number: ");
-    str = Console.ReadLine();
-    b = int.Parse(str);
-    int result;
-    result = a*a+b*b;
-    System.Console.WriteLine(   "result is: " + result);
-*/
 
