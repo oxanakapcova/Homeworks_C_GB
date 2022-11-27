@@ -16,19 +16,22 @@
 2	1 2 3 4 5 6 7 0 8 9 10	    6
 */
 Console.Clear();
-/*
-s
-int n = Convert.ToInt32(Console.ReadLine());
-int[] array = {};
-array[0] = Convert.ToInt32(Console.ReadLine);
-int max = array[0]; 
-while(n != 0)
+
+int value = Convert.ToInt32(Console.ReadLine());
+int currentValue;
+int max;
+while(value != 0)
 {
-    n = Convert.ToInt32(Console.ReadLine());
+    value = Convert.ToInt32(Console.ReadLine());
+    max = 0;
+    
+    if(max < value)
+    max = max + value;
+
 }
 Console.WriteLine("End");
-System.Console.WriteLine(   );
-System.Console.WriteLine(   );
+System.Console.WriteLine("max number is "+ max   );
+//System.Console.WriteLine(   );
 
 
 
