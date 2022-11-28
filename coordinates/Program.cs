@@ -21,5 +21,5 @@ z1 = double.Parse(Console.ReadLine());
 System.Console.WriteLine("Write z2:");
 z2 = double.Parse(Console.ReadLine());
 double result = Math.Sqrt(Math.Pow((x1-x2), 2) + Math.Pow((y1-y2), 2) + Math.Pow((z1-z2), 2));
-
+//Math.Sqrt() =корень;Math.Pow(число, степень) = возведение в степень
 System.Console.WriteLine("distance is: " + result);
