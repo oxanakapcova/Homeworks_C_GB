@@ -1,7 +1,7 @@
 {
-    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
-    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
-    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
@@ -9,9 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/currency_exchange/bin/Debug/net6.0/currency_exchange.dll",
+            "program": "${workspaceFolder}/task_sum_multiplication/bin/Debug/net6.0/task_sum_multiplication.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/currency_exchange",
+            "cwd": "${workspaceFolder}/task_sum_multiplication",
             "console": "internalConsole",
             "stopAtEntry": false
         },

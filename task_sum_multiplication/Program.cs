@@ -1,10 +1,8 @@
 ﻿// Sum of 3 numbers + multiplication
-Console.Clear();
+//Console.Clear();
 
 int firstValue, secondValue, thirdValue;
 Console.WriteLine("  Please, write 1st number: ");
-firstValue = int.Parse(Console.ReadLine());
-
 System.Console.WriteLine(   "Please, write 2nd number: ");
 secondValue =int.Parse(Console.ReadLine());
 

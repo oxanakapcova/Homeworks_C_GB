@@ -1,5 +1,5 @@
 ﻿// Currency exchange (hardcode)
-Console.Clear();
+//Console.Clear();
 
 double UsdToRur = 60.03;
 double UsdToBr = 2.38;

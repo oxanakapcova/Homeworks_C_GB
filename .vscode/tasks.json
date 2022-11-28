@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/currency_exchange/currency_exchange.csproj",
+                "${workspaceFolder}/task_sum_multiplication/task_sum_multiplication.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/currency_exchange/currency_exchange.csproj",
+                "${workspaceFolder}/task_sum_multiplication/task_sum_multiplication.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/currency_exchange/currency_exchange.csproj"
+                "${workspaceFolder}/task_sum_multiplication/task_sum_multiplication.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
